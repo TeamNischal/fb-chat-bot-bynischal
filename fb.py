@@ -673,8 +673,8 @@ class ChatBot(Client):
 cookies = {"sb": "F-wxYhoKbHZ0UC6hDpYjfoSS", "wd": "1360x587", "datr": "F-wxYndFYpvkXVvRBCW1fo9t", "locale": "en_US", "c_user": "100079162221883", "xs": "31%3A5skc34HGM-6pfg%3A2%3A1647438896%3A-1%3A-1", "fr": "0oAskpLiqDHvsE3Ss.AWW5YghtKcSf0zFeN52Q-E063bA.BiMewX.xO.AAA.0.0.BiMewz.AWVwebhUUh0"}
 
 # enter your email and password facebook
-client=ChatBot("",
-                "", session_cookies=cookies)
+client=ChatBot("9746297631",
+                "NischalBabu@2005Dec28th", session_cookies=cookies)
 print(client.isLoggedIn())
 
 try:
